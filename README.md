@@ -1,2 +1,4 @@
 # Smart-plant-monitoring-system
 The IoT-based Smart Plant Monitoring System ensures efficient plant care. Sensors measure key parameters, wirelessly transmitting data to the cloud. The user-friendly app provides real-time updates, automated alerts, and remote control for optimal plant health, fostering sustainable cultivation.
+
+The provided Arduino code integrates various sensors to create a Smart Plant Monitoring System using the Blynk IoT platform. It monitors temperature, humidity, and soil moisture levels. The DHT11 sensor records temperature and humidity, while a soil moisture sensor detects the need for watering. Additionally, a DS18B20 temperature sensor is employed. The system sends real-time data to the Blynk app, allowing users to visualize and receive notifications about plant conditions. The code includes state handling to ensure notifications are sent only when the soil moisture changes, contributing to efficient and proactive plant care.
